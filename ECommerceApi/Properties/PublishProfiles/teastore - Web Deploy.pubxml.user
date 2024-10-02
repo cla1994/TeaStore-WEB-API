@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Questo file viene usato dal processo di pubblicazione/creazione pacchetto del progetto Web. È possibile personalizzare il comportamento del processo
+modificando il file MSBuild. Per altre informazioni su questo argomento, vedere https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAATy2LtUDoXEuVYnEEwZ7qJwAAAAACAAAAAAAQZgAAAAEAACAAAAC+ModEJw6hdENh6mFlCMmFrv4PWriYsDot3KKsvlWaUgAAAAAOgAAAAAIAACAAAAAzjRi11zZdtsszEWp4IT67wiCuZfXvw9UsfMMxNbbSNIAAAABSKUTmmI0iQ5Mz5rvZPpu9+FffG9hEV9RUIiCAXXo05eoMmeh1Fkj6eow368xtHPjz3op6IV1ONawjuiyNpfp9ZR5vC4dkDz+5YOYDf55iZg+mYYYn61+WTpAXfjP88BzVeBhW0AOjOhArMJki0myzoiLAWTaJI5FT+qpJae73bkAAAACykVLCHxJQFLFt3+9a5755hUSZAC0f7pJKe8fgn2BREtjLfU9TKxDltBtWfNG/8qiplvJv8nDMNIH7csUTt2De</EncryptedPassword>
+    <History>True|2024-09-24T16:08:19.1782337Z||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="ApiDbContextConnection">
+      <Value>Server=tcp:serverteastore.database.windows.net,1433%3bInitial Catalog=TeaStoreDb%3bPersist Security Info=False%3bUser ID=claudio%3bPassword=Panasonic12!%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="ECommerceApi.Data.ApiDbContext">
+      <Value>Server=tcp:serverteastore.database.windows.net,1433%3bInitial Catalog=TeaStoreDb%3bPersist Security Info=False%3bUser ID=claudio%3bPassword=Panasonic12!%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
